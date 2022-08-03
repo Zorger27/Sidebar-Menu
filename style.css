@@ -150,8 +150,8 @@
     display: block;
 }
 .sidebar .nav-links li .sub-menu.blank {
-    opacity: 1;
-    pointer-events: auto;
+    /*opacity: 1;*/
+    /*pointer-events: auto;*/
     padding: 3px 20px 6px 16px;
     opacity: 0;
     pointer-events: none;
@@ -210,8 +210,9 @@
 }
 .home-section {
     position: relative;
-    /*background: #e4e9f7;*/
     background-image: url("https://images.wallpaperscraft.com/image/single/coffee_cup_minimalism_120197_1280x800.jpg");
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     left: 260px;
     width: calc(100% - 260px);
@@ -228,7 +229,7 @@
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text {
-    color: #11101d;
+    color: #811515;
     font-size: 35px;
 }
 .home-section .home-content .bx-menu {
